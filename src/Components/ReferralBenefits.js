@@ -3,7 +3,7 @@ import Button from './UI/Button';
 
 const ReferralBenefits = ({openModal}) => {
   return (
-    <div className="bg-gray-50 min-h-screen p-8 rounded-lg">
+    <div id='benefits' className="bg-gray-50 min-h-screen p-8 rounded-lg">
       <h2 className="text-xl font-bold text-center mb-8">
         What Are The <span className="text-blue-500">Referral Benefits?</span>
       </h2>

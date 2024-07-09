@@ -8,7 +8,7 @@ import { FaYoutubeSquare } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className=" lg:grid lg:grid-cols-5 bg-black ">
+    <footer id="support" className=" lg:grid lg:grid-cols-5 bg-black ">
       <div className="relative block h-32 lg:col-span-2 lg:h-full">
         <img
           src={footer}

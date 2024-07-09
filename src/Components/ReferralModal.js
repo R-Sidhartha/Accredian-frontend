@@ -61,7 +61,6 @@ const ReferralModal = ({ closeModal, setModalOpen }) => {
         setModalOpen(false);
       } catch (error) {
         console.error("Error submitting referral:", error);
-        alert("Failed to submit referral");
       }
     } else {
       setFormErrors(errors);

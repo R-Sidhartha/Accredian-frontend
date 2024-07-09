@@ -9,7 +9,7 @@ const FAQComponent = () => {
   };
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
+    <div id="faqs" className="p-6 max-w-4xl mx-auto">
       <h2 className="text-xl text-center font-bold mb-8">
         Frequently Asked <span className="text-blue-600">Questions</span>
       </h2>
