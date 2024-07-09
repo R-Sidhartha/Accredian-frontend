@@ -15,7 +15,7 @@ function Home() {
   return (
     <div className="flex flex-col gap-5 mt-8 items-center">
       <Menu />
-      <div className="flex gap-3 border border-blue-500/25 shadow-xl rounded-xl w-3/4 justify-center items-center mt-5">
+      <div id="refer" className="flex gap-3 border border-blue-500/25 shadow-xl rounded-xl w-3/4 justify-center items-center mt-5">
         <img src={bg} width={500} alt="" />
         <div className="flex gap-3 flex-col justify-center w-3/4 p-2">
           <h2 className="text-6xl">Let's Learn & Earn</h2>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 
 const ReferralModal = ({ closeModal, setModalOpen }) => {
   const [formData, setFormData] = useState({
@@ -56,11 +57,11 @@ const ReferralModal = ({ closeModal, setModalOpen }) => {
         if (!response.ok) {
           throw new Error(data.error || "Something went wrong");
         }
-
-        alert("Referral submitted successfully!");
+        toast.error("Referral submitted successfully!")
         setModalOpen(false);
       } catch (error) {
         console.error("Error submitting referral:", error);
+        toast.error("Error submitting referral")
       }
     } else {
       setFormErrors(errors);
